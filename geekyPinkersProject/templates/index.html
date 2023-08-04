@@ -1,0 +1,47 @@
+{% extends 'base.html'%}
+{% block title %} Predict {% endblock %}
+{% block content %}
+ 
+<center>
+<div class="centered">
+    <div class="container">
+        <div class="tabs is-centered">
+        <ul>
+            <a class="button_category_post" href="{% url 'dashboard-predictions' %}">Recomended List</a>
+            <a class="button_category_post" href="{% url 'dashboard-index' %}">Recommend Another Pinker</a>
+        </ul>
+            <div class="container">
+                <div class="row mt-4">
+
+                <form method="POST">
+                    {%csrf_token%}
+
+                <table>
+                <tr>
+                    <th class="headline" scope="col">name</th>
+                    <th class="headline" scope="col"> worked field </th>
+                    <th class="headline" scope="col"> academic field </th>
+                    <th class="headline" scope="col"> worked industry </th>
+                    <th class="headline" scope="col"> invested time</th>
+                </tr>
+
+                <tr> 
+                    <th scope="row"> {{form.name}}</th>
+                    <td>  {{form.worked_fields}} </td>
+                    <td> {{form.academic_fields}}</td>
+                    <td>  {{form.worked_industry}}</td>
+                    <td> {{form.invested_time}} </td>
+                </tr>
+                </table>
+
+                <input class="button_submit" type="submit" value="Make prediction">
+                </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</center>
+
+{%endblock%}

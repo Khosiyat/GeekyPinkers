@@ -1,0 +1,48 @@
+
+{% extends 'base.html'%} 
+{% block title %} Predictions List {% endblock %}
+{% block content %}
+
+ 
+<center>
+<div class="centered">
+    <div class="container">
+        <div class="tabs is-centered">
+        <ul>
+            <a class="button_category_post" href="{% url 'dashboard-predictions' %}">Recomended List</a>
+            <a class="button_category_post" href="{% url 'dashboard-index' %}">Recommend Another Pinker</a>
+        </ul>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-8 offset-md-2">
+                <table>
+                    <thead>
+                    <tr>
+                        <th style="width: 50%;" class="headline" scope="col">
+                            name
+                        </th>
+
+                        <th style="width: 50%;"  class="headline" scope="col">
+                            predictions
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {% for i in predicted_stack %}
+                        <tr>
+                            <th>{{i.name}}</th>
+                            <th>{{i.predictions}}</th>
+                        </tr>
+                        {% endfor %}
+                    </tbody> 
+                </table>
+                </div> 
+                <a class="button_submit" href="{% url 'dashboard-index' %}">Recommend Another Pinker</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</center>
+
+{% endblock %}
