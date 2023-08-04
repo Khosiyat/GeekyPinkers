@@ -46,3 +46,6 @@ python manage.py createsuperuser
 ```
 
 
+
+**Note:**
+The ML model we trained in the colab.google is provided in this repository (https://github.com/Khosiyat/GeekyPinkers/blob/main/geekyPinkers_project.ipynb). You may try it yourself using the colab.google or jupyter notebook. The dataset used in this project is very small. In real projects you are supposed to work with big data.
