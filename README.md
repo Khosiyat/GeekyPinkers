@@ -3,7 +3,7 @@
 
 [Download Python](https://www.python.org/downloads/ ) 
 
-. Copy past followings onto your command prompt:
+- Copy past followings onto your command prompt:
 
 1. Clone the GeekyPinkers Project.
 ```
