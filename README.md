@@ -1,9 +1,9 @@
 #### This repository is for educational purposes. 
 # GeekyPinkers
 
-+ [Download Python](https://www.python.org/downloads/ )
++[Download Python](https://www.python.org/downloads/ )
 
-+ [Install Django](https://docs.djangoproject.com/en/4.2/topics/install/ )
++[Install Django](https://docs.djangoproject.com/en/4.2/topics/install/ )
 
 
 -Copy past followings onto your command prompt:
