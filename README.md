@@ -57,24 +57,7 @@ You may try it yourself using the [google colab](https://colab.google/notebooks/
 
 
 
-WHEN?
-WHAT?
-FOLLOW THE INSTRUCTIONS
-Week 1
-Train Machine Learning Model
-Week 2
-Install Django, Create Django Model
-Week 3
-Django views, URLs 
-Week 4
-Django Forms and Templates
-MAKE IT YOURSELF 
-Week 5
-A. Divide into three teams:
-1) machine learning/model training
-2) back-end
-3) front-end
-
-B. Plan to build X web application (like GeekyPinkers)
-Week 6
-Present the Demo of the X web application 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
