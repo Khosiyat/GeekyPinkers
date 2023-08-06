@@ -5,6 +5,8 @@
 
 **[Install Django](https://docs.djangoproject.com/en/4.2/topics/install/ )**
 
+**[Install Other Packages](https://pypi.org/project/joblib/ )**
+
 
 -Copy past followings onto your command prompt:
 
