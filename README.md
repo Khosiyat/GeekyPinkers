@@ -19,8 +19,8 @@ activate
 ```python3
 pip install Python
 pip install Django
-pip install PIL
-pip install pandas
+pip install scikit-learn 
+pip install joblib
 .......
 ```
 
