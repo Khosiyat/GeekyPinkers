@@ -59,10 +59,8 @@ You may try it yourself using the [google colab](https://colab.google/notebooks/
 
 
 
-In-person events:
+**In-person events:**
 
-| WHEN?  |WHAT TO LEARN?  |
-| ------------- | ------------- |
 | WHEN?  |WHAT TO LEARN?  |
 | ------------- | ------------- |
 | Week 1  | Train Machine Learning Model  |
