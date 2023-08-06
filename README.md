@@ -61,7 +61,9 @@ You may try it yourself using the [google colab](https://colab.google/notebooks/
 
 In-person events:
 
-| WHEN?  |WHEN?  |
+| WHEN?  |WHAT TO LEARN?  |
+| ------------- | ------------- |
+| WHEN?  |WHAT TO LEARN?  |
 | ------------- | ------------- |
 | Week 1  | Train Machine Learning Model  |
 | Week 2  | Install Django, Create Django Model  |
