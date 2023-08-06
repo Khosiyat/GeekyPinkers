@@ -25,7 +25,6 @@ activate
 pip install Django
 pip install scikit-learn
 pip install joblib
-.......
 ```
 
 - Go back to the "...\geekyPinkersProject" folder (please follow the instructions shown in the video) and make migrations
