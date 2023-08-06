@@ -66,10 +66,5 @@ You may try it yourself using the [google colab](https://colab.google/notebooks/
 | Week 2  | Install Django, Create Django Model  |
 | Week 3  | Django views, URLs   |
 | Week 4  | Django Forms and Templates  |
-| Week 5  | A. Divide into three teams:
-1) machine learning/model training
-2) back-end
-3) front-end
-
-B. Plan to build X web application (like GeekyPinkers)  |
+| Week 5  | A. Divide into three teams: 1) machine learning/model training 2) back-end 3) front-end B. Plan to build X web application (like GeekyPinkers)  |
 | Week 6  | Present the Demo of the X web application  |
