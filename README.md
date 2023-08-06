@@ -2,6 +2,7 @@
 # GeekyPinkers
 
 > [Download Python](https://www.python.org/downloads/ )
+
 > [Install Django](https://docs.djangoproject.com/en/4.2/topics/install/ )
 
 
