@@ -1,7 +1,9 @@
 #### This repository is for educational purposes. 
 # GeekyPinkers
 
-[Download Python](https://www.python.org/downloads/ ) 
+[Download Python](https://www.python.org/downloads/ )
+[Install Django](https://docs.djangoproject.com/en/4.2/topics/install/ )
+
 
 -Copy past followings onto your command prompt:
 
@@ -19,9 +21,8 @@ activate
 
 -It is required to install necessary packages and libraries. Install them by writing the followings in the command prompt:
 ```python3
-pip install Python
 pip install Django
-pip install scikit-learn 
+pip install scikit-learn
 pip install joblib
 .......
 ```
