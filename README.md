@@ -1,4 +1,6 @@
 #### This repository is for educational purposes. 
+**[watch the tutorial](https://www.youtube.com/@gulcheeraacademy1978 )**
+
 # GeekyPinkers
 
 **[Download Python](https://www.python.org/downloads/ )**
