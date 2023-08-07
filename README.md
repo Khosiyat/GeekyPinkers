@@ -2,13 +2,13 @@
 **[watch the tutorial](https://www.youtube.com/playlist?list=PLoRaeB82EdK6ZIdpklyBUj7qWhvbVDCw- )**
 
 
-1. **[watch the tutorial](https://www.youtube.com/playlist?list=PLoRaeB82EdK6ZIdpklyBUj7qWhvbVDCw- )**
-    1. Introduction: https://youtu.be/gWZf-mR1IgM
-    2. Machine Learning Model Training: https://youtu.be/QI6zEqf8QYw
-    3. Install Django: https://youtu.be/32EdUDkiQKY
-    4. Model: https://youtu.be/w-4QLspvmXM
-    5. Forms & Views: https://youtu.be/3ECIXMr8qTo 
-    6. Templates: https://youtu.be/er5UtdYBdqQ 
+1. **[Introduction]( https://youtu.be/gWZf-mR1IgM)**
+2. **[Machine Learning Model Training](https://youtu.be/QI6zEqf8QYw)**
+3. **[Install Django](https://youtu.be/32EdUDkiQKY)**
+4. **[Model](https://youtu.be/w-4QLspvmXM)**
+5. **[Forms & Views](https://youtu.be/3ECIXMr8qTo )**
+6. **[Templates](https://youtu.be/er5UtdYBdqQ )**
+
 
 
 # GeekyPinkers
