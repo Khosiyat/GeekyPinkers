@@ -1,7 +1,8 @@
 #### This repository is for educational purposes. 
 **[watch the tutorial](https://www.youtube.com/playlist?list=PLoRaeB82EdK6ZIdpklyBUj7qWhvbVDCw- )**
 
-       
+
+1. **[watch the tutorial](https://www.youtube.com/playlist?list=PLoRaeB82EdK6ZIdpklyBUj7qWhvbVDCw- )**
     1. Introduction: https://youtu.be/gWZf-mR1IgM
     2. Machine Learning Model Training: https://youtu.be/QI6zEqf8QYw
     3. Install Django: https://youtu.be/32EdUDkiQKY
