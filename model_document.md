@@ -189,17 +189,17 @@ class Data(models.Model):
     predictions = models.CharField(max_length=100, blank=True)
  ```
 
- ```python3
 # 1) date: This is the name of the field you're defining. You can replace it with a name that's relevant to your model.
 
 # 2) models.DateTimeField: This indicates that you're using a DateTimeField, which is a field type provided by the models module. DateTimeField is used to store date and time information.
 
 # 3) auto_now_add=True: This option automatically sets the field's value to the current date and time when a new record (instance) of the model is created. It's commonly used for fields that represent a creation timestamp
 
+ ```python3
     date = models.DateTimeField(auto_now_add=True)
  ```
 
- This is the custom save method within the model. By defining this method, you're providing your own implementation of how the instance should be saved.
+###### This is the custom save method within the model. By defining this method, you're providing your own implementation of how the instance should be saved.
  
  ```python3
     def save(self, *args, **kwargs):
