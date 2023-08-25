@@ -80,9 +80,6 @@ MODELS
  ```python3
 class Data(models.Model):
     name = models.CharField(max_length=100, null=True)
-    # age = models.PositiveIntegerField(
-    # height = models.PositiveIntegerField(null=True)
-    # sex = models.PositiveIntegerField(choices=GENDER, null=True)
     worked_fields = models.PositiveIntegerField(choices=Worked_fields, null=True)
     academic_fields = models.PositiveIntegerField(choices=Academic_fields, null=True)
     worked_industry = models.PositiveIntegerField(choices=Worked_industry, null=True)
@@ -100,5 +97,71 @@ class Data(models.Model):
         ordering = ['-date']
 
     def __str__(self):
+        return self.name
+ ```
+
+
+ ```python3
+class Data(models.Model):
+ ```
+
+ ```python3
+    name = models.CharField(max_length=100, null=True)
+ ```
+
+ ```python3
+    worked_fields = models.PositiveIntegerField(choices=Worked_fields, null=True)
+ ```
+
+ ```python3
+    academic_fields = models.PositiveIntegerField(choices=Academic_fields, null=True)
+ ```
+
+ ```python3
+    worked_industry = models.PositiveIntegerField(choices=Worked_industry, null=True)
+ ```
+
+ ```python3
+    invested_time = models.PositiveIntegerField(validators=[MinValueValidator(1), MaxValueValidator(20)], null=True)
+ ```
+
+ ```python3
+    predictions = models.CharField(max_length=100, blank=True)
+ ```
+
+ ```python3
+    date = models.DateTimeField(auto_now_add=True)
+ ```
+
+ ```python3
+    def save(self, *args, **kwargs):
+ ```
+
+ ```python3
+        ml_model = joblib.load('ml_model/geekyPinkers_model.joblib')
+ ```
+
+ ```python3
+        self.predictions = ml_model.predict(
+            [[ self.worked_industry, self.academic_fields, self.invested_time, self.worked_fields]])
+ ```
+
+ ```python3
+        return super().save(*args, *kwargs)
+ ```
+
+ ```python3
+    class Meta:
+ ```
+
+ ```python3
+        ordering = ['-date']
+ ```
+
+ ```python3
+    def __str__(self):
+ ```
+
+ ```python3
         return self.name
  ```
