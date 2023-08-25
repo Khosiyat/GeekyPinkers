@@ -6,3 +6,13 @@ from django.apps import AppConfig
 class DashboardConfig(AppConfig):
     name = 'dashboard'
  ```
+
+
+ ```python3
+class DashboardConfig(AppConfig):
+ ```
+
+
+ ```python3
+    name = 'dashboard'
+ ```
