@@ -2,11 +2,6 @@ from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator 
 import joblib
 
-# Create your models here.
-# GENDER = (
-#     (0, 'Female'),
-#     (1, 'Male'),
-# )
 
 
 Worked_fields = (
