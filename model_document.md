@@ -3,9 +3,11 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 import joblib
 
 
-'''python
-yes
-'''
+ ```python3
+pip install Django
+pip install scikit-learn
+pip install joblib
+```
 Worked_fields = (
           (0, 'Worked_fields'), 
           (1, 'Game_development'), 
