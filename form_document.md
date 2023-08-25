@@ -4,12 +4,22 @@
 from django import forms
 from .models import Data
  ```
-###### 
+###### from django: This part indicates that you're importing something from the Django package. Django is a popular web framework for building web applications using the Python programming language.
+
+###### import forms: This part specifies that you want to import the forms module from the Django package. The forms module is a built-in part of Django and provides classes and functionality to work with HTML forms in a convenient and efficient way.
+
+###### When you import the forms module, you gain access to various classes, functions, and utilities that help you create, validate, and manage forms in your Django projects. This module simplifies the process of handling form data, rendering forms in HTML templates, performing data validation, and processing form submissions.
+
+###### In summary, the from django import forms statement allows you to utilize Django's form handling capabilities within your Python code. This is a fundamental step if you're planning to work with forms in a Django web application.
 
  ```python3
 from django import forms
  ```
-###### 
+###### The line from .models import Data is importing the Data model from the same package or directory where the current script or module is located. This is a common practice in Django projects to import models, views, and other components from the same app to maintain a clean and organized project structure.
+
+###### If the Data model is defined in the models.py module within the myapp directory, you would use the import statement you provided to access the Data model in your current script or module.
+
+###### This import allows you to use the Data model in your code, enabling you to perform various operations on the model, such as creating, retrieving, updating, and deleting instances of it. The Data model could have fields and methods defined in its class, and you can use them for different purposes within your application.
 
  ```python3
 from .models import Data
