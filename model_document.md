@@ -115,7 +115,13 @@ class Data(models.Model):
  ```python3
 class Data(models.Model):
  ```
-## $\colorbox{green}{{\color{white}{This\ is\ a\ Big\ Title}}}$
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 
 ###### 1) `name`: This is the name of the field. You can replace it with any name that makes sense for your model's attributes.
 
