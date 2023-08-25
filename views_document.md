@@ -36,42 +36,42 @@ def index(request):
 
     return render(request, "index.html", context) 
  ```
-
+###### 
  ```python3
 def index(request):
  ```
-
+###### 
  ```python3
     if request.method=="POST":
  ```
-
+###### 
  ```python3
         form=DataForm(request.POST)
  ```
-
+###### 
  ```python3
         if form.is_valid():
  ```
-
+###### 
  ```python3
             form.save()
  ```
-
+###### 
  ```python3
             return redirect('dashboard-predictions')  
  ```
-
+###### 
  ```python3
     else:
         form = DataForm()
  ```
-
+###### 
  ```python3
     context={
         'form':form
     }
  ```
-
+###### 
  ```python3
     return render(request, "index.html", context) 
  ```
@@ -87,21 +87,21 @@ def predictions(request):
 
     return render(request, "predictions.html", context)
  ```
-
+###### 
  ```python3
 def predictions(request):
  ```
-
+###### 
  ```python3
     predicted_stack=Data.objects.all()
  ```
-
+###### 
  ```python3
     context={
         'predicted_stack':predicted_stack
     }
  ```
-
+###### 
  ```python3
     return render(request, "predictions.html", context)
  ```
