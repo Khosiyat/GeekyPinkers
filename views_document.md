@@ -4,15 +4,15 @@ from django.shortcuts import render, redirect
 from .forms import DataForm
 from .models import Data
  ```
-
+###### 
  ```python3
 from django.shortcuts import render, redirect
  ```
-
+###### 
  ```python3
 from .forms import DataForm
  ```
-
+###### 
  ```python3
 from .models import Data
  ```
