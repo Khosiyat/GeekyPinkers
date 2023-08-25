@@ -1,3 +1,7 @@
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
  ```python3
 from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator 
@@ -115,13 +119,7 @@ class Data(models.Model):
  ```python3
 class Data(models.Model):
  ```
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
+
 
 ###### 1) `name`: This is the name of the field. You can replace it with any name that makes sense for your model's attributes.
 
