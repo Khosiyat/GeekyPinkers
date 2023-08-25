@@ -2,6 +2,13 @@
 from django.contrib import admin
 from .models import Data
  ```
+ ```python3
+from django.contrib import admin
+ ```
+
+ ```python3
+from .models import Data
+ ```
 
 # Register your models here.
  ```python3
