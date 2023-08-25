@@ -118,6 +118,14 @@ class Data(models.Model):
  ```
 
  ```python3
+# 1) name: This is the name of the field. You can replace it with any name that makes sense for your model's attributes.
+
+# 2) models.CharField: This indicates that you're using a CharField, which is a field type provided by the models module. CharField is used to store character (string) data.
+
+# 3) max_length=100: This specifies the maximum length of the field in characters. The value 100 in this case means that the field can store up to 100 characters.
+
+# 4) null=True: This option allows the field to be nullable, meaning it can contain a NULL value in the database. By default, Django's CharField doesn't allow NULL values, so specifying null=True makes it optional.
+
     name = models.CharField(max_length=100, null=True)
  ```
 
