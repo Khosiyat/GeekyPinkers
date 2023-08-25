@@ -24,6 +24,8 @@ Worked_fields = (
           (16, 'Information_technology_management')
           )
 ```
+
+ ```python3
 Academic_fields = (
                    (0, 'None'), 
                    (1, 'Math'), 
@@ -40,7 +42,9 @@ Academic_fields = (
                    (12, 'CS'), 
                    (13, 'linguistics')
                    )
+ ```
 
+ ```python3
 Worked_industry = (
                    (0, 'None'), 
                    (1, 'Transport'), 
@@ -63,7 +67,8 @@ Worked_industry = (
                    (18, 'Mining'), 
                    (19, 'Hospitality')
                    )
-
+ ```
+ ```python3
 class Data(models.Model):
     name = models.CharField(max_length=100, null=True)
     # age = models.PositiveIntegerField(
@@ -88,3 +93,4 @@ class Data(models.Model):
 
     def __str__(self):
         return self.name
+ ```
