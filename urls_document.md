@@ -3,11 +3,23 @@ from django.urls import path
 from .import views 
  ```
 
-###### 
+###### The line from django.urls import path is importing the path function from the django.urls module. This function is commonly used in Django projects to define URL patterns for your web application.
+
+###### The path function is used to associate a URL pattern with a specific view function. It's a key part of how Django handles routing and navigation within your application. Here's a simple example of how the path function is typically used in your urls.py file:
+
+###### In this example, path('', views.home, name='home') associates an empty URL (root URL) with the home view function. Similarly, path('about/', views.about, name='about') associates the /about/ URL with the about view function. The name argument provides a unique identifier for the URL pattern, which can be used to reference it in templates and other parts of your code.
+
+###### These URL patterns define how different parts of your web application respond to incoming requests. When a user navigates to a specific URL, Django uses the URL patterns to determine which view function should be called to handle that request.
+
+###### Remember to replace 'home', 'about', and other view function names with the actual names of your views. The path function is an essential component of Django's URL routing system, allowing you to create a coherent navigation structure for your web application.
+
  ```python3
 from django.urls import path
  ```
-###### 
+###### In this statement, you're importing the views module from the same package or directory as the current script. This is a common practice in Django projects, where you define views in the views.py module and then import them into other parts of your app, such as URLs, other views, or other modules.
+
+###### Once you've imported the views module, you can access the functions or classes defined in that module using the views namespace. For example, you might have a view function named my_view defined in the views module:
+
  ```python3
 from .import views 
  ```
