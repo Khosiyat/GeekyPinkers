@@ -4,6 +4,9 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 import joblib
  ```
 
+
+We can define choices for a field in a Django model using a tuple of tuples. This is typically done when we want to create a field with predefined options. In the following example, each option is represented by a value and a human-readable label and it is defined outside of the model class. We can define the choices within a Django model or outside of the model class itself. This can help keep our code organized, especially if we plan to reuse the same set of choices in multiple places. It is also possible to define the choices in a separate module and then import them where needed.
+ 
  ```python3
 Worked_fields = (
           (0, 'Worked_fields'), 
