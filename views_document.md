@@ -1,3 +1,4 @@
+**[Watch video about this Views and Forms](https://youtu.be/zcGjaVg9iHk?si=otKmMDNqU6xGeCop)**
  ```python3
 from django.shortcuts import render, redirect
 from .forms import DataForm
