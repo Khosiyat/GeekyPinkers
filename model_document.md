@@ -4,10 +4,6 @@ import joblib
 
 
  ```python3
-pip install Django
-pip install scikit-learn
-pip install joblib
-```
 Worked_fields = (
           (0, 'Worked_fields'), 
           (1, 'Game_development'), 
@@ -27,7 +23,7 @@ Worked_fields = (
           (15, 'User_interface_design'), 
           (16, 'Information_technology_management')
           )
-
+```
 Academic_fields = (
                    (0, 'None'), 
                    (1, 'Math'), 
