@@ -115,7 +115,9 @@ class Data(models.Model):
  ```python3
 class Data(models.Model):
  ```
-```diff ! text in orange ```
+```diff
+! text in orange 
+```
 
 ###### 1) name: This is the name of the field. You can replace it with any name that makes sense for your model's attributes.
 
