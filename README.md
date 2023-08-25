@@ -3,11 +3,11 @@
 
 
 1. **[Introduction](https://youtu.be/gWZf-mR1IgM?si=fY_5kUdOUs9xM73N)**
-2. **[Machine Learning Model Training](https://www.youtube.com/watch?v=QuVoz2bkssQ)**
-3. **[Install Django](https://www.youtube.com/watch?v=VWdJOB6hOXU)**
-4. **[Model](https://www.youtube.com/watch?v=xtHFkowf55o)**
-5. **[Forms & Views](https://www.youtube.com/watch?v=zcGjaVg9iHk)**
-6. **[Templates](https://www.youtube.com/watch?v=MxpcVszpVgc)**
+2. **[Machine Learning Model Training](https://youtu.be/QuVoz2bkssQ?si=b-WUsUxmE9KR2sZG)**
+3. **[Install Django](https://youtu.be/VWdJOB6hOXU?si=dlXWnc6Jvl0usPsd)**
+4. **[Model](https://youtu.be/xtHFkowf55o?si=mYHC5eh7-6wwdhVA)**
+5. **[Forms & Views](https://youtu.be/zcGjaVg9iHk?si=otKmMDNqU6xGeCop)**
+6. **[Templates](https://youtu.be/MxpcVszpVgc?si=wYy1lsKjOILYT3l0)**
 
 
 
