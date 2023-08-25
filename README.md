@@ -2,7 +2,7 @@
 **[watch the tutorial](https://www.youtube.com/playlist?list=PLoRaeB82EdK6ZIdpklyBUj7qWhvbVDCw- )**
 
 
-1. **[Introduction]([https://www.youtube.com/watch?v=lupt0yOZLlA](https://www.youtube.com/watch?v=QuVoz2bkssQ&list=PLoRaeB82EdK6ZIdpklyBUj7qWhvbVDCw-&index=2))**
+1. **[Introduction](https://www.youtube.com/watch?v=lupt0yOZLlA](https://www.youtube.com/watch?v=QuVoz2bkssQ&list=PLoRaeB82EdK6ZIdpklyBUj7qWhvbVDCw-&index=2)**
 2. **[Machine Learning Model Training](https://www.youtube.com/watch?v=QuVoz2bkssQ)**
 3. **[Install Django](https://www.youtube.com/watch?v=VWdJOB6hOXU)**
 4. **[Model](https://www.youtube.com/watch?v=xtHFkowf55o)**
