@@ -7,6 +7,20 @@ from .import views
 urlpatterns=[
     path('', views.index, name='dashboard-index'),
     path('predictions/', views.predictions, name='dashboard-predictions' )
-
 ]
+ ```
+
+
+ ```python3
+urlpatterns=[ ]
+ ```
+
+
+ ```python3
+    path('', views.index, name='dashboard-index'),
+ ```
+
+
+ ```python3
+    path('predictions/', views.predictions, name='dashboard-predictions' )
  ```
