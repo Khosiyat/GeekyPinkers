@@ -112,7 +112,7 @@ class Data(models.Model):
 
 
  ```python3
-#defining a Django model class named Data by subclassing models.Model
+#defining a Django model (Object-Relational Mapping/ORM) class named Data by subclassing models.Model
 
 class Data(models.Model):
  ```
