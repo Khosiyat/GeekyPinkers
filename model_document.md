@@ -1,4 +1,4 @@
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)]([http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://www.youtube.com/watch?v=QuVoz2bkssQ&list=PLoRaeB82EdK6ZIdpklyBUj7qWhvbVDCw-&index=2))
+**[Watch video about this Model](https://youtu.be/xtHFkowf55o?si=mYHC5eh7-6wwdhVA)** 
 
  ```python3
 from django.db import models
