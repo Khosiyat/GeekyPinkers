@@ -1,10 +1,11 @@
+ ```python3
 from django.shortcuts import render, redirect
-
 from .forms import DataForm
 from .models import Data
+ ```
 
 # Create your views here.
-
+ ```python3
 def index(request):
     if request.method=="POST":
         form=DataForm(request.POST)
@@ -22,10 +23,10 @@ def index(request):
 
     
     return render(request, "index.html", context) 
+ ```
 
 
-
-
+ ```python3
 def predictions(request):
     predicted_stack=Data.objects.all()
 
@@ -35,3 +36,4 @@ def predictions(request):
     }
 
     return render(request, "predictions.html", context)
+ ```
