@@ -4,6 +4,15 @@ from .models import Data
  ```
 
  ```python3
+from django import forms
+ ```
+
+ ```python3
+from .models import Data
+ ```
+
+
+ ```python3
 class DataForm(forms.ModelForm):
     class Meta:
         model=Data
