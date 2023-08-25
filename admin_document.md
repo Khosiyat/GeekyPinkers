@@ -3,11 +3,27 @@ from django.contrib import admin
 from .models import Data
  ```
 
-###### 
+###### The line from django.contrib import admin is an import statement that brings the admin module from the django.contrib package into your current Python script or module. Let's break down what this means:
+
+###### from django.contrib: This part indicates that you're importing something from the contrib module within the Django package. The contrib module contains various "contributed" modules and packages that provide additional functionality and features to Django projects. These modules are not part of the core Django framework but are commonly used and maintained by the community.
+
+###### import admin: This part specifies that you want to import the admin module from the contrib module. The admin module is a core part of Django's administration interface, which allows you to easily manage your application's data through a web-based user interface.
+
+###### When you import the admin module, you gain access to classes and functionality that help you define and customize the administration interface for your Django models. This interface allows you to create, update, and delete records in your database tables without writing custom views or templates.
+
  ```python3
 from django.contrib import admin
  ```
-###### 
+###### The line from .models import Data is an import statement that brings the Data class from a module named models in the same package or directory as your current Python script or module. Let's break down what this means:
+
+###### from .models: This part indicates that you're importing something from a module named models that is located in the same package or directory as your current script. The dot . represents the current package or directory.
+
+###### import Data: This part specifies that you want to import the Data class from the models module.
+
+###### In Django, the models module is typically used to define your application's data models using Django's Object-Relational Mapping (ORM) system. A model represents a database table and its fields as a Python class. The Data class you're importing likely corresponds to a model class that you've defined in your Django application.
+
+###### So, when you import Data using from .models import Data, you're bringing this Data model class into your current script, which allows you to work with it, query the database, create new records, retrieve data, and perform various operations related to database interactions using this class.
+
  ```python3
 from .models import Data
  ```
