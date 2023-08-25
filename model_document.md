@@ -199,6 +199,8 @@ class Data(models.Model):
     date = models.DateTimeField(auto_now_add=True)
  ```
 
+ This is the custom save method within the model. By defining this method, you're providing your own implementation of how the instance should be saved.
+ 
  ```python3
     def save(self, *args, **kwargs):
  ```
