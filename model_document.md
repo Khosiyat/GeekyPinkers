@@ -112,6 +112,8 @@ class Data(models.Model):
 
 
  ```python3
+defining a Django model class named Data by subclassing models.Model
+
 class Data(models.Model):
  ```
 
