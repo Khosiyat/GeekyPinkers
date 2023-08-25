@@ -1,4 +1,4 @@
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://[[www.youtube.com](https://www.youtube.com/watch?v=gWZf-mR1IgM&list=PLoRaeB82EdK6ZIdpklyBUj7qWhvbVDCw-&index=1&pp=iAQB)/watch?v=YOUTUBE_VIDEO_ID_HERE](https://www.youtube.com/watch?v=gWZf-mR1IgM&list=PLoRaeB82EdK6ZIdpklyBUj7qWhvbVDCw-&index=1&pp=iAQB))
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)]([http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://www.youtube.com/watch?v=QuVoz2bkssQ&list=PLoRaeB82EdK6ZIdpklyBUj7qWhvbVDCw-&index=2))
 
  ```python3
 from django.db import models
