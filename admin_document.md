@@ -17,15 +17,15 @@ class DataAdmin(admin.ModelAdmin):
 admin.site.register(Data, DataAdmin)
  ```
 
-
+###### 
  ```python3
 class DataAdmin(admin.ModelAdmin):
  ```
-
+###### 
  ```python3
     list_display = ('name', 'worked_fields', 'academic_fields', 'worked_industry', 'invested_time', 'predictions')
  ```
-
+###### 
  ```python3
 admin.site.register(Data, DataAdmin)
  ```
