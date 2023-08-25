@@ -115,7 +115,7 @@ class Data(models.Model):
  ```python3
 class Data(models.Model):
  ```
-$\colorbox{green}{{\color{white}{name}}}$ 
+[![](https://img.shields.io/badge/Crates.io-orange?style=for-the-badge)](https://crates.io/crates/redant)
 ###### 1) `name`: This is the name of the field. You can replace it with any name that makes sense for your model's attributes.
 
 ###### 2) `models.CharField`: This indicates that you're using a CharField, which is a field type provided by the models module. CharField is used to store character (string) data.
