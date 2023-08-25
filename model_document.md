@@ -130,71 +130,71 @@ class Data(models.Model):
  ```
 
  ```python3
-worked_fields: This is the name of the field you're defining. You can replace it with a name that is meaningful for your model.
+# 1) worked_fields: This is the name of the field you're defining. You can replace it with a name that is meaningful for your model.
 
-models.PositiveIntegerField: This indicates that you're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
+# 2) models.PositiveIntegerField: This indicates that you're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
 
-choices=Worked_fields: This specifies the choices that the field can take. Worked_fields should be a sequence of tuples, where each tuple represents a choice consisting of a value and a human-readable label. These choices define the valid options that can be selected for this field.
+# 3) choices=Worked_fields: This specifies the choices that the field can take. Worked_fields should be a sequence of tuples, where each tuple represents a choice consisting of a value and a human-readable label. These choices define the valid options that can be selected for this field.
 
-null=True: This option allows the field to be nullable, meaning it can contain a NULL value in the database. In this case, setting null=True means the field is optional and can be left empty.
+# 4) null=True: This option allows the field to be nullable, meaning it can contain a NULL value in the database. In this case, setting null=True means the field is optional and can be left empty.
 
     worked_fields = models.PositiveIntegerField(choices=Worked_fields, null=True)
  ```
 
  ```python3
-academic_fields: This is the name of the field you're defining. You can replace it with a name that is relevant to your model.
+# 1) academic_fields: This is the name of the field you're defining. You can replace it with a name that is relevant to your model.
 
-models.PositiveIntegerField: This indicates that you're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
+# 2) models.PositiveIntegerField: This indicates that you're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
 
-choices=Academic_fields: This specifies the choices for the field. Academic_fields should be a sequence of tuples, where each tuple represents a choice consisting of a value and a human-readable label. These choices define the valid options that can be selected for this field.
+# 3) choices=Academic_fields: This specifies the choices for the field. Academic_fields should be a sequence of tuples, where each tuple represents a choice consisting of a value and a human-readable label. These choices define the valid options that can be selected for this field.
 
-null=True: This option allows the field to be nullable, meaning it can contain a NULL value in the database. Setting null=True makes the field optional.
+# 4) null=True: This option allows the field to be nullable, meaning it can contain a NULL value in the database. Setting null=True makes the field optional.
 
     academic_fields = models.PositiveIntegerField(choices=Academic_fields, null=True)
  ```
 
  ```python3
-worked_industry: This is the name of the field you're defining. You can replace it with a name that makes sense for your model.
+# 1) worked_industry: This is the name of the field you're defining. You can replace it with a name that makes sense for your model.
 
-models.PositiveIntegerField: This indicates that you're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
+# 2) models.PositiveIntegerField: This indicates that you're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
 
-choices=Worked_industry: This specifies the choices for the field. Worked_industry should be a sequence of tuples, where each tuple represents a choice consisting of a value and a human-readable label. These choices define the valid options that can be selected for this field.
+# 3) choices=Worked_industry: This specifies the choices for the field. Worked_industry should be a sequence of tuples, where each tuple represents a choice consisting of a value and a human-readable label. These choices define the valid options that can be selected for this field.
 
-null=True: This option allows the field to be nullable, meaning it can contain a NULL value in the database. Setting null=True makes the field optional.
+# 4) null=True: This option allows the field to be nullable, meaning it can contain a NULL value in the database. Setting null=True makes the field optional.
 
     worked_industry = models.PositiveIntegerField(choices=Worked_industry, null=True)
  ```
 
  ```python3
-invested_time: This is the name of the field you're defining. You can replace it with a name that's meaningful for your model.
+# 1) invested_time: This is the name of the field you're defining. You can replace it with a name that's meaningful for your model.
 
-models.PositiveIntegerField: This indicates that you're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
+# 2) models.PositiveIntegerField: This indicates that you're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
 
-validators=[MinValueValidator(1), MaxValueValidator(20)]: This specifies validators for the field. Validators are used to enforce certain constraints on the field's values. In this case, you're using MinValueValidator to ensure that the value is greater than or equal to 1, and MaxValueValidator to ensure that the value is less than or equal to 20.
+# 3) validators=[MinValueValidator(1), MaxValueValidator(20)]: This specifies validators for the field. Validators are used to enforce certain constraints on the field's values. In this case, you're using MinValueValidator to ensure that the value is greater than or equal to 1, and MaxValueValidator to ensure that the value is less than or equal to 20.
 
-null=True: This option allows the field to be nullable, meaning it can contain a NULL value in the database. Setting null=True makes the field optional.
+# 4) null=True: This option allows the field to be nullable, meaning it can contain a NULL value in the database. Setting null=True makes the field optional.
 
     invested_time = models.PositiveIntegerField(validators=[MinValueValidator(1), MaxValueValidator(20)], null=True)
  ```
 
  ```python3
-predictions: This is the name of the field you're defining. You can replace it with a name that makes sense for your model.
+# 1) predictions: This is the name of the field you're defining. You can replace it with a name that makes sense for your model.
 
-models.CharField: This indicates that you're using a CharField, which is a field type provided by the models module. CharField is used to store character (string) data.
+# 2) models.CharField: This indicates that you're using a CharField, which is a field type provided by the models module. CharField is used to store character (string) data.
 
-max_length=100: This specifies the maximum length of the field in characters. The value 100 in this case means that the field can store up to 100 characters.
+# 3) max_length=100: This specifies the maximum length of the field in characters. The value 100 in this case means that the field can store up to 100 characters.
 
-blank=True: This option allows the field to be left blank when saving data. If blank is set to True, the field will be optional and can have an empty value
+# 4) blank=True: This option allows the field to be left blank when saving data. If blank is set to True, the field will be optional and can have an empty value
 
     predictions = models.CharField(max_length=100, blank=True)
  ```
 
  ```python3
-# - date: This is the name of the field you're defining. You can replace it with a name that's relevant to your model.
+# 1) date: This is the name of the field you're defining. You can replace it with a name that's relevant to your model.
 
-models.DateTimeField: This indicates that you're using a DateTimeField, which is a field type provided by the models module. DateTimeField is used to store date and time information.
+# 2) models.DateTimeField: This indicates that you're using a DateTimeField, which is a field type provided by the models module. DateTimeField is used to store date and time information.
 
-auto_now_add=True: This option automatically sets the field's value to the current date and time when a new record (instance) of the model is created. It's commonly used for fields that represent a creation timestamp
+# 3) auto_now_add=True: This option automatically sets the field's value to the current date and time when a new record (instance) of the model is created. It's commonly used for fields that represent a creation timestamp
 
     date = models.DateTimeField(auto_now_add=True)
  ```
