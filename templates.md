@@ -1,15 +1,15 @@
 
 #### index.html
 
-Let's reference {{form.worked_fields}}, which appears to be a template tag or variable within a Django template. In Django's template system, you use double curly braces {{ ... }} to output dynamic content onto your HTML page. Let's break down what this might mean in the context of a Django template:
+Let's reference `{{form.worked_fields}}`, which appears to be a template tag or variable within a Django template:
 
-{{ ... }}: This is the syntax for outputting dynamic content in a Django template.
+1) `{{ ... }}`: This is the syntax for outputting dynamic content in a Django template.
 
-form.worked_fields: This suggests that you are attempting to access a variable or attribute called worked_fields within a form object.
+2) `form.worked_fields`: This suggests that we are attempting to access a variable or attribute called `worked_fields` within a form object.
 
-Assuming you have a Django form object with a field named worked_fields, the code you provided would render the value of the worked_fields field in your template. For example, if you had a form like this:
+We have a Django form object with a fields named `worked_fields`, `academic_fields`, `worked_industry`, ``invested_time. And the code we provided would render the value of the these fields in our template.
 
-Let's render this form in a template, using {{ form.worked_fields }} in the template would display the input field for the worked_fields field of the form.
+This template would display the input field for the `worked_fields`, `academic_fields`, `worked_industry`, ``invested_time  fields of the form.
 
 ```
                  <table>
@@ -40,7 +40,7 @@ Here's a breakdown of the code:
 
 {% endfor %}: This marks the end of the loop.
 
-You can adjust the HTML structure and CSS styling as needed to fit your design.
+We can adjust the HTML structure and CSS styling as needed to fit our design.
 
 ```
                 <table>
