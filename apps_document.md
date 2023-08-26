@@ -1,12 +1,12 @@
-###### The line from django.apps import AppConfig is an import statement that brings the AppConfig class from the apps module within the Django framework into your current Python script or module. Let's break down what this means:
+###### The line `from django.apps import AppConfig `is an import statement that brings the AppConfig class from the apps module within the Django framework into our current Python script or module. 
 
-###### from django.apps: This part indicates that you're importing something from the apps module within the Django package. The apps module contains classes and functionality related to Django applications and their configuration.
+###### `from django.apps`: This part indicates that we're importing something from the apps module within the Django package. The apps module contains classes and functionality related to Django applications and their configuration.
 
-###### import AppConfig: This part specifies that you want to import the AppConfig class from the apps module. The AppConfig class is a core component of Django's application system. It allows you to define and customize the behavior of your application, including its name, display name, and other settings.
+###### `import AppConfig`: This part specifies that we want to import the `AppConfig` class from the apps module. The `AppConfig` class is a core component of Django's application system. It allows us to define and customize the behavior of our application, including its name, display name, and other settings.
 
-###### When you import the AppConfig class, you can create your own subclass of it to configure your Django application. This might include things like specifying the application's name, customizing how it behaves when it's loaded, and even setting up signals and other app-related functionality.
+###### When we import the `AppConfig` class, we can create our own subclass of it to configure our Django application. This might include things like specifying the application's name, customizing how it behaves when it's loaded, and even setting up signals and other app-related functionality.
 
-###### Importing and using AppConfig gives you more control over the behavior of your Django application and allows you to perform custom actions when your app is ready to be used within the project.
+###### Importing and using AppConfig gives us more control over the behavior of our Django application and allows us to perform custom actions when our app is ready to be used within the project.
 
  ```python3
 from django.apps import AppConfig
