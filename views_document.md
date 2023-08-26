@@ -14,7 +14,7 @@ from django.shortcuts import render, redirect
 ###### `from .forms`: The dot `.` indicates the current package or directory. We're importing something from within the same package.
 ###### `import DataForm`: This imports the `DataForm` class from the `forms.py` module.
 
-###### Inside dashboard app/
+###### 
     ├── views.py
     ├── urls.py
     ├── models.py
