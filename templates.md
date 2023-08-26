@@ -12,6 +12,8 @@ We have a Django **[form](https://github.com/Khosiyat/GeekyPinkers/blob/main/for
 
 This template would display the input field for the `worked_fields`, `academic_fields`, `worked_industry`, ``invested_time  fields of the form.
 
+- We can adjust the HTML structure and CSS styling as needed to fit our design. **[see the code](https://github.com/Khosiyat/GeekyPinkers/blob/main/geekyPinkersProject/templates/predictions.html)**
+- 
 ```
                  <table>
                 <tr> 
@@ -39,7 +41,7 @@ In the below, we use template tags to iterate over a list `predicted_stack` (see
 
 5) `{% endfor %}`: This marks the end of the loop.
 
-- We can adjust the HTML structure and CSS styling as needed to fit our design.
+- We can adjust the HTML structure and CSS styling as needed to fit our design. **[see the code](https://github.com/Khosiyat/GeekyPinkers/blob/main/geekyPinkersProject/templates/predictions.html)**
 
 ```
                 <table>
