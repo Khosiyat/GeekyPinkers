@@ -18,7 +18,8 @@
 5. **[urls.py:](https://github.com/Khosiyat/GeekyPinkers/blob/main/urls_document.md)**
 6. **[views.py:](https://github.com/Khosiyat/GeekyPinkers/blob/main/views_document.md)**
 
-    ├── views.py **[views.py:](https://github.com/Khosiyat/GeekyPinkers/blob/main/views_document.md)**
+#### Files inside the Dashboard App (of GeekyPinkers Project)
+    ├── views.py
     ├── urls.py
     ├── models.py
     ├── forms.py
