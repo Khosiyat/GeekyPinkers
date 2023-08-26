@@ -57,8 +57,7 @@ class DataForm(forms.ModelForm):
 ###### This line defines a list named `fields` that contains strings. Each string in this `list` corresponds to an attribute name that we want to associate with some data or information. This list is often used to configure how `data` is processed or displayed in various contexts, like when creating instances of a class or rendering data in a user interface. 
 
 ######  By using the fields list, we're creating a structured way to describe and manage these attributes within our code. In Django, this kind of configuration might be used for things like form rendering, database schema generation, or data serialization. The exact use would depend on the context in which this code is being used.
-
-###### 'name': This corresponds to a person's name. It's likely meant to store the name of an individual.
+ 
 
  ```python3
         fields=['name', 'worked_fields', 'academic_fields', 'worked_industry', 'invested_time']
