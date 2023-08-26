@@ -116,7 +116,7 @@ def index(request):
 ###### The context dictionary we've defined is used to pass data to the template for rendering. In this case, we're passing the form instance (form) to the template so that it can be displayed and interacted with in the  **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**   form.
 ###### In this example, the context dictionary contains a key `'form'` which maps to the form instance created in the view. When rendering the template, the values within the context dictionary are accessible, allowing us to display the form in our template.
 
-###### In the template **[index](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)** .html, we can access the form fields and widgets using the 'form' key from the context dictionary, typically using Django template syntax. For example:
+###### In the template **[index.html](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**, we can access the form fields and widgets using the 'form' key from the context dictionary, typically using Django template syntax. For example:
 
  ```python3
     context={
@@ -146,7 +146,7 @@ def predictions(request):
  ```
 ###### Let's define a `view function` named `predictions` in our Django application. View functions in Django handle incoming `HTTP` requests and return appropriate responses. Here's the start of the predictions view function:
 
-###### In this example, the predictions view function is using the `render function` to render the  **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**   template named `'predictions.html'`. We will need to replace `'predictions.html'` with the actual name of the template we want to use for rendering this view.
+###### In this example, the predictions view function is using the `render function` to render the  **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**   template named **[predictions.html](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)** . We will need to replace **[predictions.html](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)** with the actual name of the template we want to use for rendering this view.
 
 ###### Inside the view function, we can add the necessary logic to handle the request and generate the response. This might include processing form submissions, interacting with the database, performing calculations, and preparing data to be displayed in the template.
 
@@ -160,7 +160,7 @@ def predictions(request):
 
 ###### In this example, the `predictions` view function is retrieving all instances of the `Data` model using the `Data.objects.all()` query. The retrieved instances are stored in the `predicted_stack` variable.
 
-###### The `context` dictionary is then created, containing the `predicted_stack` data. This context data will be passed to the `'predictions.html'` template, where we can access and display the retrieved data.
+###### The `context` dictionary is then created, containing the `predicted_stack` data. This context data will be passed to the **[predictions.html](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)** template, where we can access and display the retrieved data.
 
  ```python3
     predicted_stack=Data.objects.all()
@@ -169,7 +169,7 @@ def predictions(request):
 
 ###### In this example, the `context` dictionary contains a key `'predicted_stack'` which maps to the `predicted_stack` variable that holds the retrieved instances of the `Data` model. When rendering the template, the values within the `context` dictionary are accessible, allowing us to display the data in our template.
 
-###### In our template ('predictions.html'), we can access the data using the 'predicted_stack' key from the context dictionary, typically using Django template syntax. For example:
+###### In our template **[predictions.html](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)** , we can access the data using the 'predicted_stack' key from the context dictionary, typically using Django template syntax. For example:
 
  ```python3
     context={
