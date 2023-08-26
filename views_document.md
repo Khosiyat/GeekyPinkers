@@ -113,7 +113,7 @@ def index(request):
     else:
         form = DataForm()
  ```
-###### The context dictionary we've defined is used to pass data to the template for rendering. In this case, we're passing the form instance (form) to the template so that it can be displayed and interacted with in the ` **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**  ` form.
+###### The context dictionary we've defined is used to pass data to the template for rendering. In this case, we're passing the form instance (form) to the template so that it can be displayed and interacted with in the  **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**   form.
 ###### In this example, the context dictionary contains a key `'form'` which maps to the form instance created in the view. When rendering the template, the values within the context dictionary are accessible, allowing us to display the form in our template.
 
 ###### In the template `**[index](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)** .html`, we can access the form fields and widgets using the 'form' key from the context dictionary, typically using Django template syntax. For example:
@@ -123,9 +123,9 @@ def index(request):
         'form':form
     }
  ```
-###### The line `return render(request, "index.html", context)` is used to render an ` **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)** ` template named `"index.html"` with the provided context data. The template is used to generate the final ` **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**  ` content that will be sent to the user's browser.
+###### The line `return render(request, "index.html", context)` is used to render an  **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**  template named `"index.html"` with the provided context data. The template is used to generate the final  **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**   content that will be sent to the user's browser.
 
-###### In this example, if the request method is `"GET" (initial page load)`, a new instance of the `DataForm` is created and passed to the `'index.html'` template within the `context` dictionary. This will render the form fields in the ` **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**  ` form. If the request method is `"POST"` and the form is invalid, the same `context` dictionary is passed to the template `'index.html'` to display form errors.
+###### In this example, if the request method is `"GET" (initial page load)`, a new instance of the `DataForm` is created and passed to the `'index.html'` template within the `context` dictionary. This will render the form fields in the  **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**   form. If the request method is `"POST"` and the form is invalid, the same `context` dictionary is passed to the template `'index.html'` to display form errors.
 
 ###### The `render` function takes the `request` object, the template name (in this case, `'index.html'`), and the `context` dictionary. It combines the template with the context data to generate the final **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**  response.
 
@@ -146,7 +146,7 @@ def predictions(request):
  ```
 ###### Let's define a `view function` named `predictions` in our Django application. View functions in Django handle incoming `HTTP` requests and return appropriate responses. Here's the start of the predictions view function:
 
-###### In this example, the predictions view function is using the `render function` to render the ` **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**  ` template named `'predictions.html'`. We will need to replace `'predictions.html'` with the actual name of the template we want to use for rendering this view.
+###### In this example, the predictions view function is using the `render function` to render the  **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**   template named `'predictions.html'`. We will need to replace `'predictions.html'` with the actual name of the template we want to use for rendering this view.
 
 ###### Inside the view function, we can add the necessary logic to handle the request and generate the response. This might include processing form submissions, interacting with the database, performing calculations, and preparing data to be displayed in the template.
 
@@ -165,7 +165,7 @@ def predictions(request):
  ```python3
     predicted_stack=Data.objects.all()
  ```
-###### The `context` dictionary we've defined is used to pass data to the template for rendering. In this case, we're passing the `predicted_stack` variable to the template so that we can display its contents within the ` **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**  ` template.
+###### The `context` dictionary we've defined is used to pass data to the template for rendering. In this case, we're passing the `predicted_stack` variable to the template so that we can display its contents within the  **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**   template.
 
 ###### In this example, the `context` dictionary contains a key `'predicted_stack'` which maps to the `predicted_stack` variable that holds the retrieved instances of the `Data` model. When rendering the template, the values within the `context` dictionary are accessible, allowing us to display the data in our template.
 
@@ -176,11 +176,11 @@ def predictions(request):
         'predicted_stack':predicted_stack
     }
  ```
-###### The line `return render(request, "predictions.html", context)` is used to render the `**[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)** ` template named `"predictions.html"` with the provided context data. The template is used to generate the final ` **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**  ` content that will be sent to the user's browser.
+###### The line `return render(request, "predictions.html", context)` is used to render the **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**  template named `"predictions.html"` with the provided context data. The template is used to generate the final  **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**   content that will be sent to the user's browser.
 
 ###### In this example, the `context` dictionary contains the `'predicted_stack'` key, which maps to the `predicted_stack` variable holding the retrieved instances of the `Data` model. When rendering the template, the values within the context dictionary are accessible, allowing us to display the data in our template.
 
-###### The render function takes the request object, the template name (in this case, `"predictions.html"`), and the `context` dictionary. It combines the template with the context data to generate the final ` **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**  ` response.
+###### The render function takes the request object, the template name (in this case, `"predictions.html"`), and the `context` dictionary. It combines the template with the context data to generate the final  **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**  response.
 
  ```python3
     return render(request, "predictions.html", context)
