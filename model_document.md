@@ -261,7 +261,7 @@ class Data(models.Model):
  ```python3
     class Meta:
  ```
-###### `The line ordering = ['-date']` inside the class `Meta` of a Django model specifies that querysets retrieved from the database should be ordered in descending order based on the date field. This means that the most recent records will appear first in the queryset.
+###### The line `ordering = ['-date']` inside the class `Meta` of a Django model specifies that querysets retrieved from the database should be ordered in descending order based on the date field. This means that the most recent records will appear first in the queryset.
 
  ```python3
         ordering = ['-date']
