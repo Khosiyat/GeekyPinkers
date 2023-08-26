@@ -4,11 +4,12 @@
 from django import forms
 from .models import Data
  ```
+
 ###### `from django`: This part indicates that we're importing something from the Django package. 
 
-###### `import forms`: This part specifies that we want to import the `forms` module from the Django package. The `forms` module is a built-in part of Django and provides classes and functionality to work with HTML forms in a convenient and efficient way.
+###### `import forms`: This part specifies that we want to import the `forms` module from the Django package. The `forms` module is a built-in part of Django and provides classes and functionality to work with **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**  forms in a convenient and efficient way.
 
-###### When we import the forms module, we gain access to various classes, functions, and utilities that help us create, validate, and manage forms in our Django projects. This module simplifies the process of handling form data, rendering forms in HTML templates, performing data validation, and processing form submissions.
+###### When we import the forms module, we gain access to various classes, functions, and utilities that help us create, validate, and manage forms in our Django projects. This module simplifies the process of handling form data, rendering forms in **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**  templates, performing data validation, and processing form submissions.
 
  ```python3
 from django import forms
