@@ -116,7 +116,7 @@ def index(request):
 ###### The context dictionary we've defined is used to pass data to the template for rendering. In this case, we're passing the form instance (form) to the template so that it can be displayed and interacted with in the  **[HTML](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)**   form.
 ###### In this example, the context dictionary contains a key `'form'` which maps to the form instance created in the view. When rendering the template, the values within the context dictionary are accessible, allowing us to display the form in our template.
 
-###### In the template `**[index](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)** .html`, we can access the form fields and widgets using the 'form' key from the context dictionary, typically using Django template syntax. For example:
+###### In the template **[index](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)** .html, we can access the form fields and widgets using the 'form' key from the context dictionary, typically using Django template syntax. For example:
 
  ```python3
     context={
