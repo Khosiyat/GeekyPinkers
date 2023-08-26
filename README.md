@@ -89,16 +89,13 @@ You may try it yourself using the [google colab](https://colab.google/notebooks/
 > https://github.com/Khosiyat/GeekyPinkers/blob/main/geekyPinkers_dataset.csv
 
 
-
-
-
 **In-person events:**
 
 | WHEN?  |WHAT TO LEARN?  |
 | ------------- | ------------- |
-| Week 1  | Train Machine Learning Model **[Machine Learning Model Training](https://youtu.be/QuVoz2bkssQ?si=b-WUsUxmE9KR2sZG)**  |
-| Week 2  | Install Django, Create Django Model  |
-| Week 3  | Django views, URLs   |
-| Week 4  | Django Forms and Templates  |
-| Week 5  | A. Divide into three teams: 1) machine learning/model training 2) back-end 3) front-end B. Plan to build X web application (like GeekyPinkers)  |
-| Week 6  | Present the Demo of the X web application  |
+| Week 1  | **[Train Machine Learning Model](https://youtu.be/QuVoz2bkssQ?si=b-WUsUxmE9KR2sZG)**  |
+| Week 2  | **[Install Django](https://youtu.be/VWdJOB6hOXU?si=dlXWnc6Jvl0usPsd)** , **[Create Django Model](https://youtu.be/xtHFkowf55o?si=mYHC5eh7-6wwdhVA)**|
+| Week 3  | **[Django views, URLs, Forms](https://youtu.be/zcGjaVg9iHk?si=otKmMDNqU6xGeCop)** | 
+| Week 4  | **[Django Forms and Templates](https://youtu.be/MxpcVszpVgc?si=wYy1lsKjOILYT3l0)** |
+| Week 5  | **[A. Divide into three teams](https://youtu.be/gWZf-mR1IgM?si=fY_5kUdOUs9xM73N)** : 1) machine learning/model training  2) back-end 3) front-end **[B. Plan to build X web application (like GeekyPinkers)](https://youtu.be/gWZf-mR1IgM?si=fY_5kUdOUs9xM73N)**  |
+| Week 6  |  **[Present the Demo of the X web application](https://youtu.be/gWZf-mR1IgM?si=fY_5kUdOUs9xM73N)** |
