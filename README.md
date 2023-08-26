@@ -18,7 +18,14 @@
 5. **[urls.py:](https://github.com/Khosiyat/GeekyPinkers/blob/main/urls_document.md)**
 6. **[views.py:](https://github.com/Khosiyat/GeekyPinkers/blob/main/views_document.md)**
 
-
+    ├── views.py **[views.py:](https://github.com/Khosiyat/GeekyPinkers/blob/main/views_document.md)**
+    ├── urls.py
+    ├── models.py
+    ├── forms.py
+    ├── apps.py
+    ├── admin.py
+    └── ...
+   
 # GeekyPinkers
 
 **[Download Python](https://www.python.org/downloads/ )**
