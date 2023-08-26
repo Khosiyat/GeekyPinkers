@@ -4,15 +4,15 @@ from django.shortcuts import render, redirect
 from .forms import DataForm
 from .models import Data
  ```
-###### render(request, template_name, context=None, content_type=None, status=None, using=None): This function is used to render an HTML template with a given context and return an HttpResponse object. It's often used to generate dynamic web pages using templates. The request argument is the HTTP request object, and template_name is the name of the template to be rendered. You can also provide a context dictionary that contains data to be used in the template.
+###### `render(request, template_name, context=None, content_type=None, status=None, using=None)`: This function is used to render an `HTML` template with a given context and return an `HttpResponse` object. It's often used to generate dynamic web pages using templates. The request argument is the `HTTP` request object, and template_name is the name of the template to be rendered. We can also provide a `context dictionary `that contains data to be used in the template.
 
-###### redirect(to, *args, permanent=False, **kwargs): This function is used to create a redirect response. It takes a URL as the to argument and redirects the user to that URL. The permanent argument specifies whether the redirect should be permanent (HTTP status code 301) or temporary (HTTP status code 302). You can also pass additional arguments and keyword arguments to customize the redirect behavior.
+###### `redirect(to, *args, permanent=False, **kwargs)`: This function is used to create a redirect response. It takes a `URL` as the `to` argument and redirects the user to that `URL`. The permanent argument specifies whether the redirect should be permanent (`HTTP` status code `301`) or temporary (`HTTP` status code `302`). We can also pass additional arguments and keyword arguments to customize the redirect behavior.
 
  ```python3
 from django.shortcuts import render, redirect
  ```
-###### from .forms: The dot (.) indicates the current package or directory. You're importing something from within the same package.
-###### import DataForm: This imports the DataForm class from the forms.py module.
+###### `from .forms`: The dot `.` indicates the current package or directory. We're importing something from within the same package.
+###### `import DataForm`: This imports the `DataForm` class from the `forms.py` module.
 
 ###### myapp/
     ├── models.py
@@ -25,7 +25,7 @@ from django.shortcuts import render, redirect
 from .forms import DataForm
  ```
 
-###### from .models: The dot (.) refers to the current package or directory. So, you're importing something from within the same package.
+###### from .models: The dot (.) refers to the current package or directory. So, we're importing something from within the same package.
 ###### import Data: This imports the Data model from the models.py module in the same directory/package.
 
  ```python3
