@@ -26,7 +26,7 @@ This template would display the input field for the `worked_fields`, `academic_f
 
 #### predictions.html
 
-In the below, we us template tags to iterate over a list `predicted_stack` (**[model](https://github.com/Khosiyat/GeekyPinkers/blob/main/model_document.md)** and **[view](https://github.com/Khosiyat/GeekyPinkers/blob/main/model_document.md)**) and generate HTML `<tr>` elements for each item in the list. Each item in the list seems to have attributes like name and predictions, which are being displayed in the table cells using the `{{ ... }}` template syntax:
+In the below, we use template tags to iterate over a list `predicted_stack` (see **[model](https://github.com/Khosiyat/GeekyPinkers/blob/main/model_document.md)** and **[view](https://github.com/Khosiyat/GeekyPinkers/blob/main/views_document.md**) and generate HTML `<tr>` elements for each item in the list. Each item in the list seems to have attributes like name and predictions, which are being displayed in the table cells using the `{{ ... }}` template syntax:
 
 1) `{% for i in predicted_stack %}`: This initiates a loop that iterates over each item `i` in the `predicted_stack` list.
 
