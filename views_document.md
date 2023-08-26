@@ -15,15 +15,6 @@ from django.shortcuts import render, redirect
 ###### `import DataForm`: This imports the `DataForm` class from the `forms.py` module.
 
 
-    ├── views.py
-    ├── urls.py
-    ├── models.py
-    ├── forms.py
-    ├── apps.py
-    ├── admin.py
-    └── ...
-
-
  ```python3
 from .forms import DataForm
  ```
