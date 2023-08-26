@@ -96,7 +96,7 @@ You may try it yourself using the [google colab](https://colab.google/notebooks/
 
 | WHEN?  |WHAT TO LEARN?  |
 | ------------- | ------------- |
-| Week 1  | Train Machine Learning Model  |
+| Week 1  | Train Machine Learning Model **[Machine Learning Model Training](https://youtu.be/QuVoz2bkssQ?si=b-WUsUxmE9KR2sZG)**  |
 | Week 2  | Install Django, Create Django Model  |
 | Week 3  | Django views, URLs   |
 | Week 4  | Django Forms and Templates  |
