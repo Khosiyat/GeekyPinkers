@@ -25,8 +25,8 @@ from django.shortcuts import render, redirect
 from .forms import DataForm
  ```
 
-###### from .models: The dot (.) refers to the current package or directory. So, we're importing something from within the same package.
-###### import Data: This imports the Data model from the models.py module in the same directory/package.
+###### `from .models`: The dot `.` refers to the current package or directory. So, we're importing something from within the same package.
+###### `import Data`: This imports the `Data` model from the `models.py` module in the same directory/package.
 
  ```python3
 from .models import Data
