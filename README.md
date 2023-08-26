@@ -10,6 +10,21 @@
 6. **[Templates](https://youtu.be/MxpcVszpVgc?si=wYy1lsKjOILYT3l0)**
 
 
+Documentation (explanation) of the apps of GeekPinkers Project:
+1. **[apps.py:](https://github.com/Khosiyat/GeekyPinkers/blob/main/apps_document.md)**
+2. **[______](______)**
+3. **[______](______)**
+4. **[______](______)**
+5. **[______](______)**
+6. **[______](______)**
+   
+
+admin.py: https://github.com/Khosiyat/GeekyPinkers/blob/main/admin_document.md
+model.py: https://github.com/Khosiyat/GeekyPinkers/blob/main/model_document.md
+forms.py: https://github.com/Khosiyat/GeekyPinkers/blob/main/form_document.md
+urls.py: https://github.com/Khosiyat/GeekyPinkers/blob/main/urls_document.md 
+views.py: https://github.com/Khosiyat/GeekyPinkers/blob/main/views_document.md
+
 
 # GeekyPinkers
 
