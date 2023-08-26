@@ -7,7 +7,7 @@ Let's reference `{{form.worked_fields}}`, which appears to be a template tag or 
 
 2) `form.worked_fields`: This suggests that we are attempting to access a variable or attribute called `worked_fields` within a form object.
 
-We have a Django form object with a fields named `worked_fields`, `academic_fields`, `worked_industry`, ``invested_time. And the code we provided would render the value of the these fields in our template.
+We have a Django **[form](https://github.com/Khosiyat/GeekyPinkers/blob/main/templates.md)** object with a fields named `worked_fields`, `academic_fields`, `worked_industry`, ``invested_time. And the code we provided would render the value of the these fields in our template.
 
 This template would display the input field for the `worked_fields`, `academic_fields`, `worked_industry`, ``invested_time  fields of the form.
 
