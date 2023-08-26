@@ -137,9 +137,9 @@ class Data(models.Model):
  ```
 
 
-###### 1) `name`: This is the name of the field. You can replace it with any name that makes sense for your model's attributes.
+###### 1) `name`: This is the name of the field. We can replace it with any name that makes sense for our model's attributes.
 
-###### 2) `models.CharField`: This indicates that you're using a CharField, which is a field type provided by the models module. CharField is used to store character (string) data.
+###### 2) `models.CharField`: This indicates that we're using a CharField, which is a field type provided by the models module. CharField is used to store character (string) data.
 
 ###### 3) `max_length=100`: This specifies the maximum length of the field in characters. The value 100 in this case means that the field can store up to 100 characters.
 
@@ -149,9 +149,9 @@ class Data(models.Model):
     name = models.CharField(max_length=100, null=True)
  ```
 
-###### 1) `worked_fields`: This is the name of the field you're defining. You can replace it with a name that is meaningful for your model.
+###### 1) `worked_fields`: This is the name of the field we're defining. We can replace it with a name that is meaningful for our model.
 
-###### 2) `models.PositiveIntegerField`: This indicates that you're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
+###### 2) `models.PositiveIntegerField`: This indicates that we're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
 
 ###### 3) `choices=Worked_fields`: This specifies the choices that the field can take. Worked_fields should be a sequence of tuples, where each tuple represents a choice consisting of a value and a human-readable label. These choices define the valid options that can be selected for this field.
 
@@ -161,9 +161,9 @@ class Data(models.Model):
     worked_fields = models.PositiveIntegerField(choices=Worked_fields, null=True)
  ```
 
-###### 1) `academic_fields`: This is the name of the field you're defining. You can replace it with a name that is relevant to your model.
+###### 1) `academic_fields`: This is the name of the field we're defining. We can replace it with a name that is relevant to our model.
 
-###### 2) `models.PositiveIntegerField`: This indicates that you're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
+###### 2) `models.PositiveIntegerField`: This indicates that we're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
 
 ###### 3) `choices=Academic_fields`: This specifies the choices for the field. Academic_fields should be a sequence of tuples, where each tuple represents a choice consisting of a value and a human-readable label. These choices define the valid options that can be selected for this field.
 
@@ -173,9 +173,9 @@ class Data(models.Model):
     academic_fields = models.PositiveIntegerField(choices=Academic_fields, null=True)
  ```
 
-###### 1) `worked_industry`: This is the name of the field you're defining. You can replace it with a name that makes sense for your model.
+###### 1) `worked_industry`: This is the name of the field we're defining. We can replace it with a name that makes sense for our model.
 
-###### 2) `models.PositiveIntegerField`: This indicates that you're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
+###### 2) `models.PositiveIntegerField`: This indicates that we're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
 
 ###### 3) `choices=Worked_industry`: This specifies the choices for the field. Worked_industry should be a sequence of tuples, where each tuple represents a choice consisting of a value and a human-readable label. These choices define the valid options that can be selected for this field.
 
@@ -185,11 +185,11 @@ class Data(models.Model):
     worked_industry = models.PositiveIntegerField(choices=Worked_industry, null=True)
  ```
 
-###### 1) `invested_time`: This is the name of the field you're defining. You can replace it with a name that's meaningful for your model.
+###### 1) `invested_time`: This is the name of the field we're defining. We can replace it with a name that's meaningful for our model.
 
-###### 2) `models.PositiveIntegerField`: This indicates that you're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
+###### 2) `models.PositiveIntegerField`: This indicates that we're using a PositiveIntegerField, which is a field type provided by the models module. PositiveIntegerField is used to store positive integer values.
 
-###### 3) `validators=[MinValueValidator(1), MaxValueValidator(20)]`: This specifies validators for the field. Validators are used to enforce certain constraints on the field's values. In this case, you're using MinValueValidator to ensure that the value is greater than or equal to 1, and MaxValueValidator to ensure that the value is less than or equal to 20.
+###### 3) `validators=[MinValueValidator(1), MaxValueValidator(20)]`: This specifies validators for the field. Validators are used to enforce certain constraints on the field's values. In this case, we're using MinValueValidator to ensure that the value is greater than or equal to 1, and MaxValueValidator to ensure that the value is less than or equal to 20.
 
 ###### 4) `null=True`: This option allows the field to be nullable, meaning it can contain a NULL value in the database. Setting null=True makes the field optional.
 
@@ -198,9 +198,9 @@ class Data(models.Model):
     invested_time = models.PositiveIntegerField(validators=[MinValueValidator(1), MaxValueValidator(20)], null=True)
  ```
 
-###### 1) `predictions`: This is the name of the field you're defining. You can replace it with a name that makes sense for your model.
+###### 1) `predictions`: This is the name of the field we're defining. We can replace it with a name that makes sense for our model.
 
-###### 2) `models.CharField`: This indicates that you're using a CharField, which is a field type provided by the models module. CharField is used to store character (string) data.
+###### 2) `models.CharField`: This indicates that we're using a CharField, which is a field type provided by the models module. CharField is used to store character (string) data.
 
 ###### 3) `max_length=100`: This specifies the maximum length of the field in characters. The value 100 in this case means that the field can store up to 100 characters.
 
@@ -211,9 +211,9 @@ class Data(models.Model):
     predictions = models.CharField(max_length=100, blank=True)
  ```
 
-###### 1) `date`: This is the name of the field you're defining. You can replace it with a name that's relevant to your model.
+###### 1) `date`: This is the name of the field we're defining. We can replace it with a name that's relevant to our model.
 
-###### 2) `models.DateTimeField`: This indicates that you're using a DateTimeField, which is a field type provided by the models module. DateTimeField is used to store date and time information.
+###### 2) `models.DateTimeField`: This indicates that we're using a DateTimeField, which is a field type provided by the models module. DateTimeField is used to store date and time information.
 
 ###### 3) `auto_now_add=True`: This option automatically sets the field's value to the current date and time when a new record (instance) of the model is created. It's commonly used for fields that represent a creation timestamp
 
@@ -221,16 +221,16 @@ class Data(models.Model):
     date = models.DateTimeField(auto_now_add=True)
  ```
 
-###### This is the custom `save` method within the model. By defining this method, you're providing your own implementation of how the instance should be saved.
+###### This is the custom `save` method within the model. By defining this method, we're providing our own implementation of how the instance should be saved.
 ###### The `*args` and `**kwargs` are used to pass any arguments and keyword arguments that were passed to the save method.
-###### In Python, self is a conventionally used name for the first parameter of instance methods. It refers to the instance of the class that the method is being called on. In the context of a Django model, self refers to the instance of the model that you're currently working with.
+###### In Python, self is a conventionally used name for the first parameter of instance methods. It refers to the instance of the class that the method is being called on. In the context of a Django model, self refers to the instance of the model that we're currently working with.
  ```python3
     def save(self, *args, **kwargs):
  ```
 
 ###### loading a machine learning model from a joblib file named 'geekyPinkers_model.joblib'.
-###### 1) ml_model: This is a variable name that you're using to store the loaded machine learning model.
-###### 2) joblib.load('ml_model/geekyPinkers_model.joblib'): This is a function call to the load function from the joblib library. The function is used to load a serialized object (in this case, your machine learning model) from a joblib file named 'geekyPinkers_model.joblib'. The file should be located in a directory named 'ml_model'. The loaded model will be assigned to the ml_model variable.
+###### 1) ml_model: This is a variable name that we're using to store the loaded machine learning model.
+###### 2) joblib.load('ml_model/geekyPinkers_model.joblib'): This is a function call to the load function from the joblib library. The function is used to load a serialized object (in this case, our machine learning model) from a joblib file named 'geekyPinkers_model.joblib'. The file should be located in a directory named 'ml_model'. The loaded model will be assigned to the ml_model variable.
 
  ```python3
         ml_model = joblib.load('ml_model/geekyPinkers_model.joblib')
@@ -248,7 +248,7 @@ class Data(models.Model):
         self.predictions = ml_model.predict(
             [[ self.worked_industry, self.academic_fields, self.invested_time, self.worked_fields]])
  ```
-###### 1) `super()`: This is a built-in Python function that returns a temporary object of the superclass, allowing you to call its methods. In this context, super() is used to refer to the parent class of the current class (i.e., the models.Model class).
+###### 1) `super()`: This is a built-in Python function that returns a temporary object of the superclass, allowing us to call its methods. In this context, super() is used to refer to the parent class of the current class (i.e., the models.Model class).
 
 ###### 2) `.save(*args, **kwargs)`: This calls the save method of the parent class (models.Model) and passes any arguments and keyword arguments (*args and **kwargs) that were provided to the current save method.
 
@@ -257,7 +257,7 @@ class Data(models.Model):
  ```python3
         return super().save(*args, *kwargs)
  ```
-###### The class Meta inside a Django model is a nested class used to provide metadata and options for the model. It allows you to configure various aspects of how the model interacts with the database and other behaviors. The Meta class is a powerful way to control how your model interacts with the database and how it's displayed in the Django admin interface. 
+###### The class Meta inside a Django model is a nested class used to provide metadata and options for the model. It allows us to configure various aspects of how the model interacts with the database and other behaviors. The Meta class is a powerful way to control how our model interacts with the database and how it's displayed in the Django admin interface. 
  ```python3
     class Meta:
  ```
@@ -266,11 +266,11 @@ class Data(models.Model):
  ```python3
         ordering = ['-date']
  ```
-###### The `def __str__(self)`: method is a special method in a Django model class that defines how instances of the model should be represented as strings. This method is used primarily for human-readable representation, such as in the Django admin interface or when printing instances in Python. In this example, the `__str__` method is overridden in the Data Model class. The method returns the value of the field1 attribute as a string when an instance of the model is converted to a string. This is useful for making the representation more human-friendly, as you can see when you interact with instances in the Django admin or other parts of your code.
+###### The `def __str__(self)`: method is a special method in a Django model class that defines how instances of the model should be represented as strings. This method is used primarily for human-readable representation, such as in the Django admin interface or when printing instances in Python. In this example, the `__str__` method is overridden in the Data Model class. The method returns the value of the field1 attribute as a string when an instance of the model is converted to a string. This is useful for making the representation more human-friendly, as we can see when we interact with instances in the Django admin or other parts of our code.
  ```python3
     def __str__(self):
  ```
-######  When you convert an instance of Data Model to a string, it will return the value of the name field. This can be very helpful for identifying instances in a human-readable format, especially when working with the Django admin interface or when printing instances in your code.
+######  When we convert an instance of Data Model to a string, it will return the value of the name field. This can be very helpful for identifying instances in a human-readable format, especially when working with the Django admin interface or when printing instances in our code.
  ```python3
         return self.name
  ```
